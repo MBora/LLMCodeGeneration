@@ -124,7 +124,7 @@ combined_data = {
     "eval": eval_data_dict
 }
 
-# # Write the combined dictionary into a JSON file
-# with open('combined_data.json', 'w', encoding='utf-8') as f:
-#     json.dump(combined_data, f, ensure_ascii=False, indent=4)
+# Write the combined dictionary into a JSON file
+with open('combined_data.json', 'w', encoding='utf-8') as f:
+    json.dump(combined_data, f, ensure_ascii=False, indent=4)
 
